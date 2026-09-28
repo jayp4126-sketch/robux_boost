@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Required for APNs registration. Without this key iOS never issues a
+	     device token, so OneSignal can never deliver a push and Singular's
+	     uninstall tracking (which is fed that same token) stays blind.
+
+	     "development" is the value Xcode writes when the Push Notifications
+	     capability is added; on archive with a distribution profile Xcode
+	     substitutes "production", so this stays correct for App Store builds. -->
+	<key>aps-environment</key>
+	<string>development</string>
+</dict>
+</plist>
