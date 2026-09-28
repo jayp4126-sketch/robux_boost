@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6546858352",
+    "project_id": "sdsm-b5ca2",
+    "storage_bucket": "sdsm-b5ca2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6546858352:android:48fff08eea2c1520b9efb5",
+        "android_client_info": {
+          "package_name": "com.KanbanDev.M"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA343XgucX_cttf5S3ORr-UJ2RHxy-ypnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
